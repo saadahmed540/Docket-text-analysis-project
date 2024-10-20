@@ -1,0 +1,11 @@
+Total words in IF.txt (without contractions): 287
+Total words in IF.txt (with contractions): 293
+Total words in AlwaysRememberUsThisWay.txt (without contractions): 223
+Total words in AlwaysRememberUsThisWay.txt (with contractions): 242
+Grand total of words (without contractions): 510
+Grand total of words (with contractions): 535
+Top 3 words in IF.txt (without contractions): [('you', 18), ('and', 16), ('if', 14)]
+Top 3 words in IF.txt (with contractions): [('you', 19), ('and', 16), ('if', 14)]
+Top 3 words in AlwaysRememberUsThisWay.txt (without contractions): [('the', 13), ('and', 8), ('i', 8)]
+Top 3 words in AlwaysRememberUsThisWay.txt (with contractions): [('i', 15), ('the', 13), ('not', 9)]
+IP Address: 172.17.0.5

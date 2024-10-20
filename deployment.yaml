@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-newapp-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: my-newapp
+  template:
+    metadata:
+      labels:
+        app: my-newapp
+    spec:
+      containers:
+      - name: text-analysis-project
+        image: saadahmedm02/text-analysis-project:latest  # Ensure this is correct
+        command: ["/bin/sh", "-c", "sleep 3600"]  # Keep the container running
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+      - name: regcred  # Only if the repository is private
